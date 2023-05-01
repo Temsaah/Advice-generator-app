@@ -108,6 +108,9 @@ main .circle {
 main .circle:hover {
   box-shadow: 0 0 39px 3px hsla(150, 100%, 66%, 0.856);
 }
+main .circle:disabled {
+  cursor: not-allowed;
+}
 main .circle i {
   font-size: 1.6rem;
   color: hsl(218, 23%, 16%);
